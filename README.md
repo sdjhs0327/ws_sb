@@ -13,15 +13,14 @@
 
 01_03_Feature_selection => IC, 다중공선성 기반 변수선택
 
-01_04_01_Modeling_ML => RF 기반 모델링
+01_04_01_Modeling_ML => RF 모델링
 
-01_04_02_preprocessing_restructure => GRU 학습 형태로 데이터 구조 변환(업로드 예정)
+01_04_02_Restructure_GRU => GRU 학습 형태로 데이터 구조 변환
 
-01_04_03_Modeling_GRU => GRU 학습(업로드 예정)
+01_04_03_Modeling_GRU => GRU 모델링
 
-01_05_Strategy&Evaluation => 전략 구현 및 최종 성능 평가
+01_05_Rule => 상방 임계점 초과시 매도, 하방 임계점 미만시 매수 전략
+
+01_06_Strategy&Evaluation => 전략 구현 및 최종 성능 평가
 
 evaluation_module => 전략 성능평가 함수를 구현한 모듈
-
-
-※ 추가 분석을 위해 서버에서 GRU기반 모형을 학습시키고 있습니다.
